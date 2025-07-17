@@ -1,0 +1,68 @@
+/* css con buenas prácticas */
+
+/* Establecer conecciones iniciales */
+/* 1. Importaciones de Tipografia */ 
+/* 2. Definir las variables que va a utilizar */
+
+@import url('https://fonts.cdnfonts.com/css/exo-3');
+
+:root{
+  --color-fondo: #C4E5F2;
+  --color-texto:#0c0634;
+  --color-enfasis:#4369D9;
+  --color-enfasis2:#4973F2;
+  --tamaño-títulos: 30px;
+}
+
+
+*{
+    margin: 0;
+}
+
+
+body{
+    /*Esos estilos que se aplican a todo*/
+font-family: 'Exo', sans-serif;  
+background-color:var(--color-fondo);
+color:var(--color-texto);
+/*Quitar Scroll*/
+overflow-x:hidden;
+
+}
+
+
+
+/* -----------HEADER-----------*/
+header{
+    /*ancho*/
+    width:100vw ;/*viewport width*/
+    /*alto*/
+    height: 10vh;/*viewport heigth*/
+    background-color: var(--color-enfasis);
+}
+
+nav{
+    display: flex;/* Atributo que me indica como se muestran los elementos*/
+    justify-content: center;/* centrar en horizontal*/
+    align-items: center;/* centrar en vertical es decir arriba abajo*/
+    }
+
+    
+.lista{
+    display: flex;
+    gap: 30px;
+    }
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+
+/*------------MAIN------------*/
+
+
+
+
+
+/*------------FOOTER-----------*/
