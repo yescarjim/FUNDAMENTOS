@@ -35,10 +35,12 @@ overflow-x:hidden;
 /* -----------HEADER-----------*/
 header{
     /*ancho*/
-    width:100vw ;/*viewport width*/
+    width:96.5vw ;/*viewport width*/
     /*alto*/
     height: 10vh;/*viewport heigth*/
     background-color: var(--color-enfasis);
+    margin: 15px;/*margen exterior*/
+    border-radius: 14px;
 }
 
 nav{
@@ -51,6 +53,8 @@ nav{
 .lista{
     display: flex;
     gap: 30px;
+    list-style: none; /* propiedad de los ol y ul*/
+
     }
 
 .logo{
@@ -58,11 +62,46 @@ nav{
     height: 60px;
 }
 
+a {color: var(--color-fondo);
+    text-decoration: none;
+
+}
+
 
 /*------------MAIN------------*/
 
+main{
+    border: solid;
+    width: 88vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
+}
 
+h1, h2{
+    /*alineacion del texto*/
+    text-align: center;
+    font-size: 30px;
+    
+}
 
+.contenedor{
+    background-color: var(--color-enfasis2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px; /*margen interno*/
+    gap: 20px;
+}
+
+.semantica {
+    width: 58%;
+    border-radius: 15px;
+}
 
 /*------------FOOTER-----------*/

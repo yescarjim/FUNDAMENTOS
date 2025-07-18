@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,126 +15,152 @@
     <!--Encabezado-->
     <header>
 
-<!--Menú de navegación-->
-<nav>
-<!--listas-->
-<!--listas ordenadas-->
-<ol class="lista">
-<li>Qué es html</li>  <!--List item-->
-<li>Semántica</li>
-<li>Etiquetas Básicas</li>
-</ol>
+        <!--Menú de navegación-->
+        <nav>
 
-<!--imagenes-->
-<!--webp - svg-->
-<img class="logo" src="https://cdn-icons-png.flaticon.com/512/5114/5114203.png"alt="logo">
 
-<!--Listas desordenadas-->
-<ul class="lista">
-    <li>Formularios</li>
-    <li>Tablas</li>
-    <li>Enlaces</li>
-</ul>
-</nav>
+
+            <!--listas-->
+            <!--listas ordenadas-->
+            <ol class="lista">
+                <a href="#que-es-html">
+                    <li>Qué es html</li>
+                </a> <!--List item-->
+                <a href="#semantica">
+                    <li>Semántica</li>
+                </a>
+                <a href="#etiquetas basicas">
+                    <li>Etiquetas Básicas</li>
+                </a>
+            </ol>
+
+            <!--imagenes-->
+            <!--webp - svg-->
+            <a href="./index.html"> <img class="logo" src="https://cdn-icons-png.flaticon.com/512/5114/5114203.png"
+                    alt="logo"> </a>
+
+            <!--Listas desordenadas-->
+            <ul class="lista">
+                <a href="#formularios">
+                    <li>Formularios</li>
+                </a>
+                <a href="#tablas">
+                    <li>Tablas</li>
+                </a>
+                <a href="#enlaces">
+                    <li>Enlaces</li>
+                </a>
+            </ul>
+        </nav>
 
     </header>
 
-<h1>Fundamentos de desarrollo Web HTML y CSS <SPAn>--------</SPAn></h1>
+    <h1>Fundamentos de desarrollo Web HTML y CSS <SPAn>--------</SPAn></h1>
 
     <main>
-<section class="contenedor" id="que-es-html">
-<h2>¿Qué es el HTML?</h2>
-<p>Lenguje de Marcado que estructura el contenido de una pagina web. Basado
-    en etiquetas que pueden ser sémanticas o no semánticas</p>
-<span>¡No es un Lenguaje de programación!</span>
-</section>
+        <section class="contenedor" id="que-es-html">
+            <h2>¿Qué es el HTML?</h2>
+            <p>Lenguje de Marcado que estructura el contenido de una pagina web. Basado
+                en etiquetas que pueden ser sémanticas o no semánticas</p>
+            <span>¡No es un Lenguaje de programación!</span>
+        </section>
 
-<section class="contenedor" id="semantica"></section>
-<h2>Semántica en HTML</h2>
-<img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites
+        <section class="contenedor" id="semantica">
+            <h2>Semántica en HTML</h2>
+            <img class="semantica" src="https://www.hostinger.com/tutorials/wp-content/uploads/sites
 /2/2023/01/html-vs-html5.png" alt="html semantica">
+        </section>
 
-<section class="contenedor" id="etiquetas basicas">
-    <h2>Etiquetas básicas del HTML</h2>
+        <section class="contenedor" id="etiquetas basicas">
+            <h2>Etiquetas básicas del HTML</h2>
 
-    <table>
-        <thead>
-            <tr>
-                <th> Etiqueta</th>
-                <th>Descripción</th>
-            </tr>
-        </thead>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Etiqueta</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
 
-        <tbody>
-            <tr>
-                <td>h1, h2, h3, h4, h5, h6,</td>
-                <td>Títulos y Subtítulos</td>
-            </tr>
+                <tbody>
+                    <tr>
+                        <td>h1, h2, h3, h4, h5, h6,</td>
+                        <td>Títulos y Subtítulos</td>
+                    </tr>
 
-            <tr>
-                <td>p</td>
-                <td>Párrafos</td>
-            </tr>
+                    <tr>
+                        <td>p</td>
+                        <td>Párrafos</td>
+                    </tr>
 
-            <tr>
-                <td>img</td>
-                <td>Para mostrar las imágenes(src,alt)</td>
-            </tr>
+                    <tr>
+                        <td>img</td>
+                        <td>Para mostrar las imágenes(src,alt)</td>
+                    </tr>
 
-            <tr>
-                <td>ul, ol</td>
-                <td>Etiquetas para definir listas desordenadas y ordenadas</td>
-            </tr>
+                    <tr>
+                        <td>ul, ol</td>
+                        <td>Etiquetas para definir listas desordenadas y ordenadas</td>
+                    </tr>
 
-            <tr>
-                <td>Div</td>
-                <td>Divisiones de contenido - dar estilos</td>
-            </tr>
+                    <tr>
+                        <td>Div</td>
+                        <td>Divisiones de contenido - dar estilos</td>
+                    </tr>
 
-            <tr>
-                <td>a</td>
-                <td>Es redireccionar a un link fuera o dentro de nuestra página</td>
-            </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>Es redireccionar a un link fuera o dentro de nuestra página</td>
+                    </tr>
 
-         </tbody>
-    </table>
+                </tbody>
+            </table>
 
-</section>
+        </section>
 
-<section class="contenedor" id="formularios"></section>
-<h2>Formularios en HTML</h2>
-<p>Son una herramientafundamental para recopilar datos de un usuario,a través de campos como:</p>
+        <section class="contenedor" id="formularios">
+            <h2>Formularios en HTML</h2>
+            <p>Son una herramientafundamental para recopilar datos de un usuario,a través de campos como:</p>
 
-<ul>
-    <li>Textos</li>
-    <li>Casillas e texto - areas de texto</li>
-    <li>Listas desplegables</li>
-    <li>Botones</li>
-</ul>
+            <ul>
+                <li>Textos</li>
+                <li>Casillas e texto - areas de texto</li>
+                <li>Listas desplegables</li>
+                <li>Botones</li>
+            </ul>
 
-<div>
-<h3>Ejemplo: Formulario de Inicio de Sesión</h3>
+            <div>
+                <h3>Ejemplo: Formulario de Inicio de Sesión</h3>
 
-<form>
-<label for="nombre">Nombre de usuario:</label>
-<input type="text" id="nombre" placeholder="Ingrese nombre de usuario" required>
-<label for="contrasena">Contraseña:</label>
-<input type="password" id="contrasena" placeholder="Ingrese su contraseña" required>
+                <form>
+                    <label for="nombre">Nombre de usuario:</label>
+                    <input type="text" id="nombre" placeholder="Ingrese nombre de usuario" required>
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" placeholder="Ingrese su contraseña" required>
 
-<input type="button" value="Iniciar Sesión">
-</form>
+                    <input type="button" value="Iniciar Sesión">
+                </form>
 
-</div>
+            </div>
+        </section>
 
-<section class="contenedor" id="tablas"></section>
-<section class="contenedor" id="enlaces"></section>
+        <section class="contenedor" id="tablas"></section>
+        <section class="contenedor" id="enlaces">
+            <h2>Enlaces a HTML</h2>
+            <p>Permiten navegar a otras paginas web (a otros documentos de HTML),
+                secciones del mismo sitio o de otra pagina.
+                Descargar un archivo al hacer click en el enlace
+            </p>
+
+            <span>`<a> </a></span>
+        </section>
     </main>
 
 
     <!--pie de página-->
-<footer>
+    <footer>
 
-</footer>
+    </footer>
 </body>
 
 
